@@ -6,7 +6,7 @@ In this example we have a LED on pin 22 which will light up when the button is p
 All you need to do is :
 1. clone this repo locally  and cd into the folder.
 1. connect up the pi as shown in the diagram :
-![Circuit diagram](/docs/images/SF_tempsensor_bb.png)
+![Circuit diagram](/docs/images/basic-gpio-diagram.png)
 1. add the resin remote repo with `git remote add resin git@git.resin.io:myGithubName/myResinAppName.git` , with the correct github and app name, or just copy if from the top right hand corner of your device dashboard on resin.io.
 1. now just `git push resin master` wait a minute or so for the code to upload and start.
 1. enjoy the all the LED goodness...
