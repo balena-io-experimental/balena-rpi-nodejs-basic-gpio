@@ -11,8 +11,8 @@ require('tty.js').createServer({
 var led= require("pi-pins").connect(18),
     button = require("pi-pins").connect(17);
 button.mode('in');
-led.mode('high');
-led.mode('low');
+led.mode('out');
+led.value(false);
 button.on('rise', function () {
     console.log("button pressed");
     led.value(true);
