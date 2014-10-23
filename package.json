@@ -1,6 +1,6 @@
 {
-  "name": "tty.js-resin",
-  "version": "0.0.0",
+  "name": "basic-gpio",
+  "version": "0.0.1",
   "main": "app.js",
   "dependencies": {
     "pi-pins": "~1.0.2"
