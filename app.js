@@ -14,7 +14,7 @@ led.value(ledOn);
 //look for a button press event and switch on the LED for 2 seconds when this happens.
 button.on('rise', function () {
     console.log("button pressed");
-    if ledOn {
+    if (ledOn) {
         led.value(false);
         ledOn = !ledOn;
     } else {
