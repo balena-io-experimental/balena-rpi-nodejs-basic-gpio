@@ -1,4 +1,4 @@
-var  ledOn = false;
+var  ledOn;
 //provision the gpio pins 22 for the led output and 17 for the button input
 var led= require("pi-pins").connect(22),
     button = require("pi-pins").connect(17);
@@ -8,6 +8,7 @@ button.mode('in');
 led.mode('out');
 
 //set the initial value of the LED to be off.
+ledOn = false;
 led.value(ledOn);
 
 //look for a button press event and switch on the LED for 2 seconds when this happens.
