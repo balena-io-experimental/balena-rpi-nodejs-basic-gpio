@@ -7,7 +7,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "preinstall": "bash deps.sh",
     "start": "node app.js"
   }
 }
